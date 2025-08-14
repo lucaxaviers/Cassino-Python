@@ -27,9 +27,9 @@ def jogar():
     if resultado[0] == resultado[1] == resultado[2]:
         print("WIN!")
     elif resultado[0] == resultado[1] or resultado[1] == resultado[2] or resultado[0] == resultado[2]:
-        print("TIGRE NÃO PAGOUU")
+        print("QUASEE")
     else:
-        print("Tente de novo.")
+        print("Não soltou cartinha")
 
 if __name__ == "__main__":
     while True:
